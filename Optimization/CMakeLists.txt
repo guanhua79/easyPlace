@@ -1,5 +1,5 @@
 ADD_EXECUTABLE(
-    ePlace
+    ePlace_test
     ePlace_test.cpp
     # optimizer.cpp
     ${PROJECT_SOURCE_DIR}/Parser/parser.cpp
@@ -33,4 +33,4 @@ INCLUDE_DIRECTORIES (
     ${PROJECT_SOURCE_DIR}/DetailedPlacement
     )
 
-target_link_libraries(ePlace "-lgomp -lpthread -lm -ldl -lX11")
+target_link_libraries(ePlace_test "-lgomp -lpthread -lm -ldl -lX11")

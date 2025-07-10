@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.26)
 PROJECT (ePlace)
 #SET(CMAKE_C_FLAGS "-O3 -w  -funroll-loops -ffast-math -funit-at-a-time -fPIC")
 # SET(CMAKE_C_FLAGS "-m64 -lX11 -O2 -fPIC -DNDEBUG -ffast-math -Dcimg_display=1 ")
